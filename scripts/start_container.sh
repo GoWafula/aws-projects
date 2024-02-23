@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-docker pull gowafula/simple-python-flask-app
+docker pull wafula101/simple-python-flask-app
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 gowafula/simple-python-flask-app
+docker run -d -p 5000:5000 wafula101/simple-python-flask-app
